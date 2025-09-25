@@ -16,6 +16,8 @@ namespace KetDimenziosTombok
             // HA EGY ELEM 1 SORSZÁMMAL AZONOSÍHATÓ A TÖMBBEN AKKOR AZ EGYDMINENZIÓS TÖMB (ELEMEK EGYSZERŰ SORA)
 
             // HA AZ AZONOSÍTÁSHOZ 2 INDEXET HASZNÁLUNK AKKOR 2 DIMENZIÓS TÖMB (OLYAN MINT EGY TÁBLÁZAT)
+            /*
+
             int[,] tablazat = new int[2, 3];
 
             tablazat[0, 0] = 1;
@@ -33,9 +35,12 @@ namespace KetDimenziosTombok
                 }
 
                 Console.WriteLine();
-            }
-
+            } 
             
+            */
+
+
+
         }
     }
 }
