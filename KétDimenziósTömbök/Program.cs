@@ -18,6 +18,24 @@ namespace KetDimenziosTombok
             // HA AZ AZONOSÍTÁSHOZ 2 INDEXET HASZNÁLUNK AKKOR 2 DIMENZIÓS TÖMB (OLYAN MINT EGY TÁBLÁZAT)
             int[,] tablazat = new int[2, 3];
 
+            tablazat[0, 0] = 1;
+            tablazat[0, 1] = 2;
+            tablazat[0, 2] = 3;
+            tablazat[1, 0] = 4;
+            tablazat[1, 1] = 5;
+            tablazat[1, 2] = 6;
+
+            for (int i = 0; i < tablazat.GetLength(0); i++)
+            {
+                for (int j = 0; j < tablazat.GetLength(1); j++)
+                {
+                    Console.Write(tablazat[i, j] + " ");
+                }
+
+                Console.WriteLine();
+            }
+
+            
         }
     }
 }
